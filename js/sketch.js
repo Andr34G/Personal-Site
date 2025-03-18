@@ -24,13 +24,6 @@ function preload () {
   
 }
 
-
-function draw() {
-  
-  
-  
-}
-
 function draw(){
    clear ();
    drawThing(mouseX, mouseY)
