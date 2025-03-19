@@ -20,7 +20,7 @@ let img1;
 
 
 function preload () {
-  img1 = loadImage('/images/MiffyPNG.png');
+  img1 = loadImage('images/MiffyPNG.png');
   
 }
 
