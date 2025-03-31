@@ -10,10 +10,7 @@ Dark Brown #1B0000
 
 /*GLOBAL STYLES
 ---------------------------------*/
-/* 
-/* 
-  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
-*/
+
 html {
     box-sizing: border-box;
     font-size: 62.5%; /* setting defualt to 10px*/
@@ -26,7 +23,7 @@ height: 100%;
 }
 
 body{
-    background:#F4E9F3;
+    background:#FFFFFF;
     margin: 0;
     font-family: "Poiret One", sans-serif;
     font-size: 1.5rem;
@@ -62,7 +59,7 @@ footer a:hover {
 }
 
 .btn {
-background: #D28A8C;
+background: #564b8b;
 color: #EDE8D5;
 text-decoration:none;
 text-transform: uppercase;
@@ -83,7 +80,7 @@ border-radius: 4px;
 /*HOME
 ---------------------------------*/
 .home{
-    background:url(../images/bg-home-office-studio.jpg) no-repeat;
+    background:url(../images/Pattern01Andrea.png) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -94,7 +91,7 @@ border-radius: 4px;
 }
 
 .content-bg{
-    background: rgb(255 255 255/.9);
+    background: rgba(255, 255, 255, 0.9);
     padding: 30px;
 }
 @media screen and (max-width:650px){
@@ -144,7 +141,7 @@ border-radius: 4px;
 ---------------------------------*/
 
 .resume header::before {
-    background:url(../images/bg-home-office-studio.jpg) center;
+    background:url(../images/Pattern01Andrea.png) center;
     background-size: cover;
     content: "";
     display:block;
